@@ -13,8 +13,8 @@
 Proyek ini merupakan implementasi **program penyelesai Sudoku** menggunakan Python. Program dikembangkan untuk memenuhi tugas mata kuliah **Artificial intelligence**, dengan pendekatan algoritmik yang mengombinasikan **Backtracking** dan **MRV (Minimum Remaining Values)** sebagai strategi pencarian solusi.
 
 ---
-
-## 📂 Struktur Proyek
+```bash
+## 📂 Struktur Proyek 
 
 ├── MMAISudokuSolver.py # File utama program Sudoku Solver
 ├── SudokuTest.txt # File input puzzle Sudoku (opsional)
@@ -24,7 +24,7 @@ Proyek ini merupakan implementasi **program penyelesai Sudoku** menggunakan Pyth
 │ └── HasilSolver_Backtraking.png
 │ └── HasilSolver_Backtraking+MRV.png
 └── README.md # Dokumentasi penggunaan
-
+```
 ---
 
 ## ⚙️ Algoritma yang Digunakan
@@ -43,15 +43,17 @@ Proyek ini merupakan implementasi **program penyelesai Sudoku** menggunakan Pyth
 ## 📝 Format File Puzzle Input
 
 File puzzle menggunakan angka 0 untuk sel kosong. Contoh:
+```bash
 0 6 0 2 0 4 0 5 0
-4 7 0 0 6 0 0 8 3
-0 0 5 0 7 0 1 0 0
-9 0 0 1 0 3 0 0 2
-0 1 2 0 0 0 7 4 0
-8 0 0 7 0 5 0 0 6
-0 0 6 0 4 0 5 0 0
-7 2 0 0 5 0 0 6 4
-0 4 0 9 0 7 0 1 0
+4 7 0 0 6 0 0 8 3 
+0 0 5 0 7 0 1 0 0 
+9 0 0 1 0 3 0 0 2 
+0 1 2 0 0 0 7 4 0 
+8 0 0 7 0 5 0 0 6 
+0 0 6 0 4 0 5 0 0 
+7 2 0 0 5 0 0 6 4 
+0 4 0 9 0 7 0 1 0 
+```
 
 ---
 
